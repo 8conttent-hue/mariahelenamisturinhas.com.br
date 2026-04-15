@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o MARIAHELENAMISTURINHAS"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Com mais de 40 anos de experiência na arte da manicure, Maria Helena Soares traz para você uma linha de esmaltes únicos, inspirados em tudo que a rodeia. Cada misturinha é uma história, uma cor que traz um pouco da essência do que o olhar atento de Maria Helena captura."
+  },
+  "content": "Maria Helena Misturinhas é uma brand que une paixão por cores e história. Cada esmalte é resultado de uma observação do cotidiano e, a partir da fusão de diversas nuances, ganham vida as misturinhas, focadas na exclusividade e na qualidade.",
+  "mission": "Oferecer esmaltes que não só embelezam, mas também contam histórias através de cores exclusivas e de qualidade superior.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

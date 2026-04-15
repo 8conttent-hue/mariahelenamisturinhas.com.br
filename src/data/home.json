@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "MARIAHELENAMISTURINHAS — Maria Helena Misturinhas",
+    "description": "Cores Exclusivas com História"
+  },
+  "hero": {
+    "title": "Maria Helena Misturinhas",
+    "subtitle": "Cores Exclusivas com História",
+    "btnText": "Descubra Nossas Cores",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Destaques das Nossas Misturinhas",
+    "items": [
+      {
+        "icon": "🌸",
+        "title": "Exclusividade",
+        "desc": "Cada cor é limitada a apenas 500 unidades, garantindo que você possua uma verdadeira raridade."
+      },
+      {
+        "icon": "💅",
+        "title": "Alta Qualidade",
+        "desc": "Formulações com secagem rápida e alta durabilidade, ideais para o dia a dia das manicures."
+      },
+      {
+        "icon": "♻️",
+        "title": "Sustentabilidade",
+        "desc": "Nossas embalagens são retornáveis e recicláveis, pensadas para minimizar o impacto ambiental."
+      },
+      {
+        "icon": "✨",
+        "title": "Tecnologia Avançada",
+        "desc": "Pincéis com cerdas chanfradas e tampa emborrachada para um acabamento perfeito."
+      }
+    ]
+  },
+  "about": {
+    "title": "Quem Somos",
+    "desc": "Com mais de 40 anos de experiência na arte da manicure, Maria Helena Soares traz para você uma linha de esmaltes únicos, inspirados em tudo que a rodeia. Cada misturinha é uma história, uma cor que traz um pouco da essência do que o olhar atento de Maria Helena captura.",
+    "stats": [
+      {
+        "value": "40+",
+        "label": "Anos de Experiência"
+      },
+      {
+        "value": "500",
+        "label": "Unidades por Cor"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

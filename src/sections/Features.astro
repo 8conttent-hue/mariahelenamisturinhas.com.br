@@ -1,0 +1,37 @@
+---
+// Features-B: Ícones em linha com número sequencial
+interface Item { icon: string; title: string; desc: string; }
+interface Props { title: string; items: Item[]; }
+const { title, items } = Astro.props;
+---
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Header -->
+    <div class="max-w-xl mb-16">
+      <span class="text-xs font-bold uppercase tracking-widest text-primary mb-3 block">Por que nos escolher</span>
+      <h2 class="text-3xl md:text-4xl font-black text-dark leading-tight">{title}</h2>
+    </div>
+
+    <!-- Lista em linha -->
+    <div class="grid md:grid-cols-3 gap-px bg-gray-100 rounded-2xl overflow-hidden border border-gray-100">
+      {items.map((item, i) => (
+        <div class="bg-white p-8 flex gap-5">
+          <!-- Ícone grande + número -->
+          <div class="shrink-0">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-accent/10 rounded-2xl flex items-center justify-center text-3xl">
+              {item.icon}
+            </div>
+            <div class="mt-2 text-center text-xs font-black text-primary/40">
+              0{i + 1}
+            </div>
+          </div>
+          <!-- Texto -->
+          <div>
+            <h3 class="text-base font-bold text-dark mb-2">{item.title}</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
